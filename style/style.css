@@ -123,8 +123,8 @@
 .grad-img-section {
     background: #FFF8F3;
     background-image: url('../images/gradient2.png'), url('../images/watch.png');
-    background-repeat: no-repeat;
     background-size: contain, contain;
+    background-repeat: no-repeat;
     margin: 0 230px 130px 230px;
 
 }
@@ -195,4 +195,50 @@
     border-radius: 5px;
     border-color: #FFF8F3;
     padding-left: 20px;
+}
+
+/* .........Main - Success.........  */
+
+.success-body {
+    margin:100px;
+}
+.sucess-para{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    margin: 0 150px 40px 150px;
+    width: 800px;
+    height: 50px;
+    text-align: center;
+}
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+.imag-size{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
 }
