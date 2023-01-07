@@ -51,7 +51,8 @@
 
 
 .section-class {
-    margin: 0 250px 0 200px;
+    margin: 0 268px 130px 200px;
+
 }
 
 .section-div {
@@ -60,13 +61,6 @@
     gap: 80px;
 }
 
-.image-div {
-    width: 569px;
-    height: 723.3px;
-}
-
-.content-div {}
-
 .content-title {
     font-weight: 700;
     font-size: 35px;
@@ -74,7 +68,7 @@
     padding-right: 40px;
 }
 
-.para-container{
+.para-container {
     width: 400px;
     height: 104px;
 }
@@ -85,9 +79,39 @@
     font-size: 16px;
     margin-bottom: 14px;
 }
-.content-para-list{
+
+.content-para-list {
     color: #666464;
     font-weight: 300;
     font-size: 16px;
     margin-bottom: 9px;
+}
+
+/* ...My - Plan - Section..... */
+
+.my-plan {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #151414;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.plan-section {
+    margin: 0 230px 125px 250px;
+}
+
+.plan-item{
+    text-align: center;
+}
+.plan-sub{
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 14px;
+}
+.plan-para{
+    font-weight: 500;
+    font-size: 15px;
+    color: #666464;
+    padding-top: 12px;
 }
