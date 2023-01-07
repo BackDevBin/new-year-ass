@@ -98,20 +98,51 @@
 }
 
 .plan-section {
-    margin: 0 230px 125px 250px;
+    margin: 0 220px 125px 260px;
 }
 
-.plan-item{
+.plan-item {
     text-align: center;
 }
-.plan-sub{
+
+.plan-sub {
     font-weight: 700;
     font-size: 20px;
     padding-top: 14px;
 }
-.plan-para{
+
+.plan-para {
     font-weight: 500;
     font-size: 15px;
     color: #666464;
     padding-top: 12px;
+}
+/* ......Image and Text Section.... */
+
+.grad-img-section {
+    background: #FFF8F3;
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: contain, contain;
+    margin: 0 230px 130px 230px;
+
+}
+.text-img-div{
+    padding: 55px 60px;
+}
+.img-tex-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 24px;
+}
+.call-btn{
+    height: 54px;
+    width: 140px;
+    font-weight: 600;
+    font-size: 18px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    color: #F15B22;
+    border: none;
+
 }
